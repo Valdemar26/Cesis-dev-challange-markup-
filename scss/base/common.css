@@ -1,0 +1,31 @@
+/* widths */
+/* colors */
+/* transitions */
+/* font */
+/* font-weights */
+body {
+  font-family: "Poppins", "Helvetica", "Arial", sans-serif;
+  scroll-behavior: smooth;
+  overflow-x: hidden; }
+
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 84.375%;
+  max-width: 1620px; }
+
+.inner-container {
+  position: relative;
+  margin: 0 auto;
+  width: 90%;
+  max-width: 1180px; }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px); }
+  to {
+    opacity: 1;
+    transform: none; } }
+
+/*# sourceMappingURL=common.css.map */
